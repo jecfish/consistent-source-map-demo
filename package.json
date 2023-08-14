@@ -1,0 +1,20 @@
+{
+  "name": "consistent-source-map-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start-pc": "npm run build-pc && npx http-server dist_parcel",
+    "build-pc": "rm -rf dist_parcel && parcel build src/index.html --dist-dir dist_parcel",
+    "start-eb": "npm run build-eb && npx http-server dist_esbuild",
+    "build-eb": "rm -rf dist_esbuild && node esbuild.config.js",
+    "dev": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "esbuild": "0.19.2",
+    "parcel": "^2.9.3"
+  }
+}
