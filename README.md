@@ -1,5 +1,10 @@
 `npm run install` to install dependencies
 
+# Browse live
+
+- Parcel - https://consistent-source-map-pc.netlify.app/
+- esbuild - https://consistent-source-map-eb.netlify.app/
+
 # About
 
 This repo support two builds - [Parcel](https://parceljs.org/) and [esbuild](https://esbuild.github.io/).
