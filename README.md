@@ -2,7 +2,7 @@
 
 # About
 
-This repo support two builds - Parceljs and Esbuild
+This repo support two builds - [Parcel](https://parceljs.org/) and [esbuild](https://esbuild.github.io/).
 
 -  `npm run build-pc` to generate output in `dist_parcel`
 -  `npm run build-eb` to generate higly optimized (with mangled props) output in `dist_esbuild`
